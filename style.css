@@ -125,7 +125,7 @@ body {
 
 /* Контейнер подменю (скрыт по умолчанию) */
 .dropdown-menu {
-    display: none;
+    display: none !important;
     position: absolute;
     top: 100%;
     left: 0;
@@ -155,7 +155,7 @@ body {
 
 /* Показываем подменю при наведении */
 .dropdown:hover .dropdown-menu {
-    display: block;
+    display: block !important;
 }
 
 /* Стрелочка-индикатор у пункта с подменю */
